@@ -1,0 +1,4 @@
+https://docs.stripe.com/sdks/stripejs-react
+https://keepcoding.io/blog/proteccion-de-rutas-con-react-router/ protected routes
+Instalamos npm install jwt-decode para poder decodeer el Jswon Web Token y obtener el rol del usuario sin necesidad de hacer mas peticiones al backend
+ npm install bootstrap-icons

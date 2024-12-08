@@ -1,0 +1,114 @@
+.order-list {
+    padding: 20px;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 auto;
+
+        th, td {
+            text-align: left;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        td {
+            vertical-align: middle;
+        }
+    }
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        padding: 5px 10px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &.btn-primary {
+            background-color: #007bff;
+            color: #fff;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+
+        &.btn-danger {
+            background-color: #dc3545;
+            color: #fff;
+
+            &:hover {
+                background-color: #a71d2a;
+            }
+        }
+
+        i {
+            font-size: 16px;
+        }
+    }
+
+    .me-2 {
+        margin-right: 10px; 
+    }
+    .filters {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 20px;
+    
+        label {
+            font-weight: bold;
+            font-size: 1rem;
+        }
+    
+        select,
+        input {
+            padding: 8px 12px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #fff;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    
+            &:focus {
+                outline: none;
+                border-color: #007bff;
+                box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+            }
+        }
+    
+        input {
+            flex: 1;
+        }
+    }
+    
+    .no-results {
+        text-align: center;
+        font-size: 1rem;
+        color: #6c757d;
+        margin-top: 20px;
+    }
+    
+}
